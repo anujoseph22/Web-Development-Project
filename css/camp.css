@@ -1,0 +1,75 @@
+
+body {
+
+    background-color: #A9977D ;
+}
+h1 {
+color: white;
+font-size:40px;
+
+
+}
+
+.camp-text-container{
+  background-color: #A9977D ;
+}
+
+.camp-pics-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,4fr));
+  background-color: #A9977D ;
+  padding:10px;
+
+}
+
+.camp-text-container p{
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+h1.solid {border-style: solid;}
+
+  h1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallerymo{
+  flex:4;
+  padding: 9px;
+  margin:20px;
+  display:flex;
+  align-items: center;
+  border: 3px solid #ccc;
+  float: left;
+
+}
+
+.gallerymo h4{
+  position: absolute;
+  text-align: center;
+  margin-top: 180px;
+
+}
+
+.gallerymo:hover {
+    border:5px solid #777;
+
+}
+
+.gallerymo img {
+    width: 280px;
+    height: 300px;
+
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+    font-size:130%;
+}

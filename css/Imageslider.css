@@ -1,0 +1,78 @@
+.Int-animals-description{
+  padding:10px;
+  margin:10px 10px;
+  text-align: justify;
+  background-color: ##C2DB65;
+  font-family: serif;
+
+}
+
+.solid{
+  padding:15px;
+  margin-left: 50px;
+  margin-right:50px;
+  background-color: ##C2DB65;
+  text-align: center;
+}
+
+h1.solid{border-style: solid;}
+sliderbox.solid{border-style: solid;}
+
+@keyframes mohit {
+
+
+0% {
+  left:  0px;
+}
+20% {
+  left:  0px;
+}
+25% {
+  left:  -700px;
+}
+
+45% {
+  left:  -700px;
+}
+50%{
+  left:  -1400px;
+}
+70%{
+  left:  -1400px;
+}
+75%{
+  left:  -2100px;
+}
+95%{
+  left:  -2100px;
+}
+100%{
+  left:  -2800px;
+
+}
+}
+
+#outerbox
+{
+  width: 700px;
+  overflow: hidden;
+
+}
+
+
+
+#sliderbox
+{
+
+  position: relative;
+  width: 2800px ;
+  animation-name: mohit;
+  animation-duration: 20s;
+  animation-iteration-count:infinite;
+
+}
+
+#sliderbox img
+{
+  float: left;
+}
